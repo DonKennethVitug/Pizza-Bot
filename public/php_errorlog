@@ -1,0 +1,509 @@
+[26-Feb-2017 16:30:49 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhost:3306' (2) in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177): Illuminate\Database\Connectors\ConnectionFactory-> in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:31:07 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177): Illuminate\Database\Connectors\Con in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:34:45 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'localhost' to database 'bini1010_pizza' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'bini1010_admin', '241835', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177):  in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:36:38 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'37.60.249.72' to database 'bini1010_pizza' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=us64...', 'bini1010_admin', '241835', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=us64...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177 in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:38:43 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'37.60.249.72' to database 'bini1010_pizza' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=ns1....', 'bini1010_admin', '241835', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=ns1....', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177 in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:43:16 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'localhost' to database 'bini1010_pizza' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'bini1010_admin', '241835', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager.php(177):  in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:43:48 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/Query/Builder.php(1377): Illuminate\Database\Connection->select('select * from `...', Array, t in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connection.php on line 624
+[26-Feb-2017 16:51:48 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'localhost' to database 'bini1010_ordering_system' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'bini1010_admin', '241835', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseManager. in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:53:35 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'localhost' to database 'bini1010_ordering_system' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'bini1010_admin', '#?qxHouH^U7K', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseMa in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 16:55:52 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'bini1010_admin'@'localhost' to database 'bini1010_ordering_system' in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'bini1010_admin', '#?qxHouH^U7K', Array)
+#1 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza/vendor/illuminate/database/DatabaseMa in /home/bini1010/public_html/pizza/vendor/illuminate/database/Connectors/Connector.php on line 47
+[26-Feb-2017 10:08:05 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza/public/seeder.php on line 11
+[26-Feb-2017 10:08:18 CST6CDT] PHP Parse error:  syntax error, unexpected ',' in /home/bini1010/public_html/pizza/public/seeder.php on line 10
+[26-Feb-2017 10:44:37 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza/public/seeder.php on line 220
+[26-Feb-2017 10:45:29 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 220
+[26-Feb-2017 10:49:00 CST6CDT] PHP Parse error:  syntax error, unexpected 'Get' (T_STRING), expecting ';' in /home/bini1010/public_html/pizza/public/seeder.php on line 239
+[26-Feb-2017 15:54:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function showItem() in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Show')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Messeng in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[26-Feb-2017 15:54:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function showItem() in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Show')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Messeng in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[26-Feb-2017 15:57:59 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function showItem() in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Show')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Messeng in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[26-Feb-2017 15:58:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function showItem() in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Show')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Messeng in /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[26-Feb-2017 20:55:16 CST6CDT] PHP Parse error:  syntax error, unexpected 's' (T_STRING), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 236
+[26-Feb-2017 20:55:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'clear' (T_STRING), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 238
+[26-Feb-2017 20:55:36 CST6CDT] PHP Parse error:  syntax error, unexpected 'clear' (T_STRING), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 238
+[26-Feb-2017 21:49:24 CST6CDT] PHP Parse error:  syntax error, unexpected '$order' (T_VARIABLE) in /home/bini1010/public_html/pizza/public/seeder.php on line 221
+[26-Feb-2017 23:23:54 CST6CDT] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 338
+[26-Feb-2017 23:25:20 CST6CDT] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 338
+[27-Feb-2017 00:31:58 CST6CDT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ']' in /home/bini1010/public_html/pizza/public/seeder.php on line 1163
+[27-Feb-2017 00:33:33 CST6CDT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 457
+[27-Feb-2017 00:33:36 CST6CDT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 457
+[27-Feb-2017 00:34:09 CST6CDT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 457
+[27-Feb-2017 00:35:12 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/bini1010/public_html/pizza/public/seeder.php on line 459
+[27-Feb-2017 01:17:25 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza/public/seeder.php on line 1238
+[27-Feb-2017 01:20:18 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza/public/seeder.php on line 1239
+[27-Feb-2017 02:07:46 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza/public/seeder.php on line 1238
+[27-Feb-2017 02:08:36 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza/public/seeder.php on line 1238
+[27-Feb-2017 02:08:38 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza/public/seeder.php on line 1238
+[27-Feb-2017 03:17:16 CST6CDT] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ')' in /home/bini1010/public_html/pizza/public/seeder.php on line 426
+[28-Feb-2017 22:23:59 Asia/Manila] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php on line 4
+[28-Feb-2017 22:25:05 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function GigaAI\Storage\mysql_query() in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php:225
+Stack trace:
+#0 [internal function]: GigaAI\Storage\Storage->setOrderFinalized('118156168194130...', 'ORDER_SAMPLE', 'Daniel Sarabusi...', '123', 'sample@gmail.co...', 'none')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code(8): GigaAI\Storage\Storage->__call('setOrderFinaliz...', Array)
+#3 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Set')
+#4 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParse in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php on line 225
+[28-Feb-2017 22:25:19 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function GigaAI\Storage\mysql_query() in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php:225
+Stack trace:
+#0 [internal function]: GigaAI\Storage\Storage->setOrderFinalized('118156168194130...', 'ORDER_SAMPLE', 'Daniel Sarabusi...', '123', 'sample@gmail.co...', 'none')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code(8): GigaAI\Storage\Storage->__call('setOrderFinaliz...', Array)
+#3 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Set')
+#4 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParse in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php on line 225
+[28-Feb-2017 22:28:39 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function GigaAI\Storage\mysql_query() in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php:224
+Stack trace:
+#0 [internal function]: GigaAI\Storage\Storage->setOrderFinalized('118156168194130...', 'ORDER_SAMPLE', 'ORDER_SAMPLE_NA...', '123', 'sample@gmail.co...', 'none')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code(8): GigaAI\Storage\Storage->__call('setOrderFinaliz...', Array)
+#3 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Set')
+#4 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParse in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php on line 224
+[28-Feb-2017 22:29:48 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined function GigaAI\Storage\mysql_query() in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php:224
+Stack trace:
+#0 [internal function]: GigaAI\Storage\Storage->setOrderFinalized('118156168194130...', 'ORDER_SAMPLE', 'ORDER_SAMPLE_NA...', '123', 'sample@gmail.co...', 'none')
+#1 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#2 /home/bini1010/public_html/pizza/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code(8): GigaAI\Storage\Storage->__call('setOrderFinaliz...', Array)
+#3 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Set')
+#4 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/MessengerBot.php(190): call_user_func_array(Object(Closure), Array)
+#5 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#6 /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Core/DynamicParse in /home/bini1010/public_html/pizza/vendor/gigaai/framework/src/Storage/Storage.php on line 224
+[03-Mar-2017 22:32:30 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'id943036_vitug'@'localhost' (using password: YES) in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'id943036_vitug', 'vitug', Array)
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/ConnectionFactory.php(58): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/DatabaseMa in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connectors/Connector.php on line 47
+[03-Mar-2017 11:31:16 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 39
+[04-Mar-2017 01:46:53 Asia/Manila] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to GigaAI\MessengerBot::then() must be callable, string given, called in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 71 and defined in /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/CanLearn.php:85
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/public/seeder.php(71): GigaAI\MessengerBot->then('Where can we co...')
+#1 {main}
+  thrown in /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/CanLearn.php on line 85
+[03-Mar-2017 12:55:15 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:4
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Receipt')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/ve in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 4
+[03-Mar-2017 12:55:40 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:4
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Receipt')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/ve in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 4
+[03-Mar-2017 12:55:49 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:4
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', 'Receipt')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/ve in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 4
+[09-Mar-2017 20:52:25 Asia/Manila] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/pizza_payload.php on line 74
+[13-Mar-2017 09:10:29 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 12
+[13-Mar-2017 10:53:08 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 33
+[14-Mar-2017 05:01:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'dd' (T_STRING) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 112
+[17-Mar-2017 18:19:32 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 49
+[17-Mar-2017 18:40:54 CST6CDT] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 11
+[17-Mar-2017 21:16:06 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 13
+[17-Mar-2017 21:16:31 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 24
+[17-Mar-2017 21:29:41 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 101
+[18-Mar-2017 04:56:42 CST6CDT] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 52
+[18-Mar-2017 05:08:19 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 36
+[18-Mar-2017 06:12:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 11
+[18-Mar-2017 06:12:58 CST6CDT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 11
+[18-Mar-2017 06:13:29 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 23
+[18-Mar-2017 06:32:56 CST6CDT] PHP Parse error:  syntax error, unexpected 'dd' (T_STRING) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 107
+[18-Mar-2017 17:53:10 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 16
+[18-Mar-2017 17:53:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:53:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:55:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:55:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:55:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:55:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function isVerified() on null in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:2
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 2
+[18-Mar-2017 17:56:58 CST6CDT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ']' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 21
+[18-Mar-2017 18:04:21 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 27
+[18-Mar-2017 18:04:22 CST6CDT] PHP Parse error:  syntax error, unexpected '$bot' (T_VARIABLE) in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 27
+[18-Mar-2017 18:20:46 CST6CDT] PHP Parse error:  syntax error, unexpected '.' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 43
+[18-Mar-2017 20:59:09 CST6CDT] PHP Parse error:  syntax error, unexpected '{', expecting ')' in /home/bini1010/public_html/pizza_bot/public/seeder.php on line 86
+[19-Mar-2017 10:06:33 Asia/Manila] PHP Parse error:  syntax error, unexpected ',' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 9
+[19-Mar-2017 10:07:06 Asia/Manila] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 34
+[19-Mar-2017 11:36:51 Asia/Manila] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING) in /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Storage/Storage.php on line 285
+[24-Mar-2017 20:05:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:16
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/g in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 16
+[24-Mar-2017 20:07:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:17
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/g in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 17
+[24-Mar-2017 20:28:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:17
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/g in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 17
+[25-Mar-2017 09:28:59 Asia/Manila] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/pizza_payload.php on line 208
+[24-Mar-2017 20:30:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:8
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/gi in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 8
+[24-Mar-2017 20:32:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:8
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/gi in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 8
+[24-Mar-2017 20:33:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function validateOrder() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:8
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendor/gi in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 8
+[24-Mar-2017 20:51:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function generateTotalCost() in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code:6
+Stack trace:
+#0 [internal function]: {closure}(Object(GigaAI\MessengerBot), '118156168194130...', '1')
+#1 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(191): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: GigaAI\MessengerBot->GigaAI\{closure}(Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Core/DynamicParser.php(35): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: GigaAI\Core\DynamicParser->parse(Array)
+#5 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(21): call_user_func_array(Array, Array)
+#6 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/Shared/EasyCall.php(35): GigaAI\Core\DynamicParser->__call('parse', Array)
+#7 /home/bini1010/public_html/pizza_bot/vendo in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(210) : eval()'d code on line 6
+[25-Mar-2017 18:14:07 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'customer_name' cannot be null in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:362
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(362): PDOStatement->execute(Array)
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `bo...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('insert into `bo...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(363): Illuminate\Database\Connection->run('insert into `bo...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(320): Illuminate\Database\Connecti in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[25-Mar-2017 19:33:11 Asia/Manila] PHP Parse error:  syntax error, unexpected end of file in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 482
+[25-Mar-2017 20:00:57 Asia/Manila] PHP Parse error:  syntax error, unexpected '}' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 56
+[25-Mar-2017 20:26:59 Asia/Manila] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 63
+[25-Mar-2017 20:27:27 Asia/Manila] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 81
+[25-Mar-2017 21:15:23 Asia/Manila] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 80
+[25-Mar-2017 21:27:51 Asia/Manila] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 94
+[25-Mar-2017 22:04:53 Asia/Manila] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 97
+[25-Mar-2017 22:18:36 Asia/Manila] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 101
+[25-Mar-2017 22:23:10 Asia/Manila] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ']' in /home/bini1010/public_html/pizza_bot/public/payloads/payload.php on line 105
+[29-Mar-2017 19:46:31 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[29-Mar-2017 19:46:51 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:38:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:38:30 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:38:38 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:39:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_leads' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 22:41:05 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.bot_nodes' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Query/Builder.php(1377): I in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:46:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:382
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(382): PDO->prepare('update `bot_lea...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `bot_lea...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('update `bot_lea...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(387): Illuminate\Database\Connection->run('update `bot_lea...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(332): Illuminate\Database\Connection-> in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:46:52 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:382
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(382): PDO->prepare('update `bot_lea...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `bot_lea...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('update `bot_lea...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(387): Illuminate\Database\Connection->run('update `bot_lea...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(332): Illuminate\Database\Connection-> in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Mar-2017 09:47:17 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'field list' in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:382
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(382): PDO->prepare('update `bot_lea...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `bot_lea...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('update `bot_lea...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(387): Illuminate\Database\Connection->run('update `bot_lea...', Array, Object(Closure))
+#4 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(332): Illuminate\Database\Connection-> in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[02-Apr-2017 10:52:55 CST6CDT] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to SuperClosure\__reconstruct_closure() must be of the type array, boolean given, called in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 141 and defined in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php:187
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(141): SuperClosure\__reconstruct_closure(false)
+#1 [internal function]: SuperClosure\SerializableClosure->unserialize('a:5:{s:4:"code"...')
+#2 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/Serializer.php(96): unserialize('C:32:"SuperClos...')
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(242): SuperClosure\Serializer->unserialize('C:32:"SuperClos...')
+#4 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(204): GigaAI\MessengerBot->response(Object(Illuminate\D in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 187
+[02-Apr-2017 10:53:02 CST6CDT] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to SuperClosure\__reconstruct_closure() must be of the type array, boolean given, called in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 141 and defined in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php:187
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(141): SuperClosure\__reconstruct_closure(false)
+#1 [internal function]: SuperClosure\SerializableClosure->unserialize('a:5:{s:4:"code"...')
+#2 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/Serializer.php(96): unserialize('C:32:"SuperClos...')
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(242): SuperClosure\Serializer->unserialize('C:32:"SuperClos...')
+#4 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(204): GigaAI\MessengerBot->response(Object(Illuminate\D in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 187
+[02-Apr-2017 10:54:19 CST6CDT] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to SuperClosure\__reconstruct_closure() must be of the type array, boolean given, called in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 141 and defined in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php:187
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php(141): SuperClosure\__reconstruct_closure(false)
+#1 [internal function]: SuperClosure\SerializableClosure->unserialize('a:5:{s:4:"code"...')
+#2 /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/Serializer.php(96): unserialize('C:32:"SuperClos...')
+#3 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(242): SuperClosure\Serializer->unserialize('C:32:"SuperClos...')
+#4 /home/bini1010/public_html/pizza_bot/vendor/gigaai/framework/src/MessengerBot.php(204): GigaAI\MessengerBot->response(Object(Illuminate\D in /home/bini1010/public_html/pizza_bot/vendor/jeremeamia/SuperClosure/src/SerializableClosure.php on line 187
+[03-Apr-2017 00:03:40 Asia/Manila] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/bini1010/public_html/pizza_bot/public/payloads/chicken_payload.php on line 57
+[03-Apr-2017 00:09:35 Asia/Manila] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/bini1010/public_html/pizza_bot/public/payloads/chicken_payload.php on line 10
+[03-Apr-2017 00:20:46 Asia/Manila] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/bini1010/public_html/pizza_bot/public/payloads/chicken_payload.php on line 10
+[07-Apr-2017 18:38:16 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.pizza_hut_stores' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from p...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from p...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from p...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from p...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select * from p...')
+# in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[23-Apr-2017 14:37:14 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.pizza_hut_stores' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from p...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from p...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from p...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from p...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select * from p...')
+# in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[27-Apr-2017 19:00:51 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.pizza_hut_stores' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from p...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from p...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from p...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from p...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select * from p...')
+# in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624
+[30-Apr-2017 15:05:51 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bini1010_ordering_system.pizza_hut_stores' doesn't exist in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php:292
+Stack trace:
+#0 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(292): PDO->prepare('select * from p...')
+#1 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from p...', Array)
+#2 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from p...', Array, Object(Closure))
+#3 /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php(297): Illuminate\Database\Connection->run('select * from p...', Array, Object(Closure))
+#4 [internal function]: Illuminate\Database\Connection->select('select * from p...')
+# in /home/bini1010/public_html/pizza_bot/vendor/illuminate/database/Connection.php on line 624

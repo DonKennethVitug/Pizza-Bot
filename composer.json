@@ -1,0 +1,10 @@
+{
+    "require": {
+        "gigaai/framework": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "\\": "vendor/gigaai/framework/src/Http"
+      }
+    }
+}

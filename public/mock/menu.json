@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Sriracha Buffalo Wings",
+    "image_url": "http://bini101.com/bot/img/buffalo.jpg",
+    "subtitle": "4 Pieces \t\t\t\t₱159.0\n6 Pieces  \t\t\t\t₱229.0",
+    "buttons": [
+      {
+        "type": "postback",
+        "payload": "ORDER_BUFFFALO_WINGS_FOUR",
+        "title": "4 Pieces"
+      },
+      {
+        "type": "postback",
+        "payload": "ORDER_BUFFFALO_WINGS_SIX",
+        "title": "6 Pieces"
+      }
+    ]
+  },
+  {
+    "title": "Creamy White Chicken",
+    "image_url": "http://bini101.com/bot/img/creamy_chicken.jpg",
+    "subtitle": "4 Pieces \t\t\t\t₱159.0\n6 Pieces  \t\t\t\t₱229.0",
+    "buttons": [
+      {
+        "type": "postback",
+        "payload": "ORDER_CREAMY_CHICKEN_FOUR",
+        "title": "4 Pieces"
+      },
+      {
+        "type": "postback",
+        "payload": "ORDER_CREAMY_CHICKEN_SIX",
+        "title": "6 Pieces"
+      }
+    ]
+  },
+  {
+    "title": "Ginger Soy Glazed Chicken",
+    "image_url": "https://bini101.com/bot/img/glazed.jpg",
+    "subtitle": "4 Pieces \t\t\t\t₱159.0\n6 Pieces  \t\t\t\t₱229.0",
+    "buttons": [
+      {
+        "type": "postback",
+        "payload": "ORDER_GLAZED_CHICKEN_FOUR",
+        "title": "4 Pieces"
+      },
+      {
+        "type": "postback",
+        "payload": "ORDER_GLAZED_CHICKEN_SIX",
+        "title": "6 Pieces"
+      }
+    ]
+  }
+]

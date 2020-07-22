@@ -1,0 +1,20 @@
+// $bot->answer('@phone',function($bot,$lead_id,$input){
+//     $phone = $input;
+    
+//     if(is_numeric($phone)){
+//         $data = [
+//             'user_id' => $lead_id,
+//             'phone' => $phone
+//         ];
+        
+//         $res = $bot->storage->setOrderPhone($data);
+        
+//         if($res){
+//           return "Thanks for choosing Pizza Prototype! Your one stop online automated pizza ordering. Your order has already been received by the store and will start delivering it right away.\n\n You can view the electronic receipt by typing \"Receipt\"";
+//         }else{
+//            return "We didn't get your number,\nThanks for choosing Pizza Prototype! Your one stop online automated pizza ordering. Your order has already been received by the store and will start delivering it right away.\n\n You can view the electronic receipt by typing \"Receipt\"";
+//         }
+//     }else{
+//         $bot->say('Your phone number is not valid! Re-type your phone number')->wait('phone');
+//     }
+// });
